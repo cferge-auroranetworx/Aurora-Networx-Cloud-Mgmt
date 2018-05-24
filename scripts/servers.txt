@@ -1,0 +1,6 @@
+compute03.lab.auroranetworx.local
+compute04.lab.auroranetworx.local
+compute05.lab.auroranetworx.local
+compute06.lab.auroranetworx.local
+compute07.lab.auroranetworx.local
+firewall.auroranetworx.local
