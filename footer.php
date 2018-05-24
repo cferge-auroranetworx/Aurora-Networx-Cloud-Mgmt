@@ -31,13 +31,13 @@ echo "
                                 <p><input type='text' class='span12' name='name' placeholder='Username'></p>
                                 <p><input type='password' class='span12' name='password' placeholder='Password'></p>
                                 <p>
-                                	<input class='pull-left' type='checkbox' name='r' value='1' id='rm'>  
+                                	<input class='pull-left' type='checkbox' name='r' value='1' id='rm'>
                                 	<label class='pull-left' for='rm'>Remember Me</label>
                                 </p>
                                 <div class='clearfix'></div>
 
                                 <input type='hidden' name='token' value='".$_SESSION['token']."'>
-                                
+
                                 <p><button type='submit' class='btn btn-primary'>Sign in</button>
                                 <a href='#forgotpassword' data-toggle='tab'>Forgot Password?</a>
                                 </p>
@@ -48,7 +48,7 @@ echo "
                                 <p>Hey this stuff happens, send us your email and we'll reset it for you!</p>
                                 <input type='text' class='span12' name='email' placeholder='Email'>
                                 <p><button type='submit' class='btn btn-primary'>Submit</button>
-                                
+
                                 <input type='hidden' name='token' value='".$_SESSION['token']."'>
 
                                 <a href='#login' data-toggle='tab'>Wait, I remember it now!</a>
@@ -68,12 +68,12 @@ echo "
 
 
 
-<div class="container">	
+<div class="container">
 <div class="row-fluid">
 				<div class="span12">
 					<div class="span2" style="width: 15%;">
 						<ul class="unstyled">
-							<li>Company Name<li>
+							<li>Aurora Networx Labs<li>
 							<li><a href="#">About us</a></li>
 						</ul>
 					</div>
@@ -90,8 +90,8 @@ echo "
 			<div class="row-fluid">
 				<div class="span12">
 					<div class="span8">
-						<a href="#">Terms of Service</a>    
-						<a href="#">Privacy</a>    
+						<a href="#">Terms of Service</a>
+						<a href="#">Privacy</a>
 						<a href="#">Security</a>
 					</div>
 					<div class="span4">
@@ -99,7 +99,7 @@ echo "
 					</div>
 				</div>
 			</div>
-  </div>    
+  </div>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="<?php echo $set->url;?>/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
